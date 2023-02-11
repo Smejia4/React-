@@ -1,14 +1,19 @@
 import './navBarHome.css';
+import { Link} from 'react-router-dom';
 
-const itemsNavBar = ["Home","Services","About us"];
+const routesApp = [
+    {title: "Home", route:"/" },
+    {title: "Services", route:"/Services" },
+    {title: "AboutUs", route:"/AboutUs" },
+    {title: "ContactUs", route:"/ContactUs" }
+]
 
 export const NavBarHome = () =>{
     return(
-        <nav>
+        <nav className='navBar'>
             <ul className='listHeader'>
-            {itemsNavBar.map((item) => (<li><a href="">{item}</a></li>))}
+            {routesApp.map((item) => (<li className='itemsNav'><Link to={item.route} className='item'>{item.title}</Link></li>))}
             </ul>
-            
         </nav>
     )
 }
