@@ -3,9 +3,9 @@ import { Link} from 'react-router-dom';
 
 const routesApp = [
     {title: "Home", route:"/" },
-    {title: "Services", route:"/Services" },
-    {title: "AboutUs", route:"/AboutUs" },
-    {title: "ContactUs", route:"/ContactUs" }
+    {title: "Use State", route:"/UseState" },
+    {title: "Tweet", route:"/Tweet" },
+    {title: "Contact Us", route:"/ContactUs"}
 ]
 
 export const NavBarHome = () =>{

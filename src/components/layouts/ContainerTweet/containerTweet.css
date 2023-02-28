@@ -1,0 +1,43 @@
+.container-content{
+    background-color: #3587f3;
+    width: 40rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-tweet{
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    margin: 5px;
+    width: 5rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 5rem;
+}
+
+.container-answer{
+    max-width: 30rem;
+    height: 10vh;
+}
+
+.container-old-tweets{
+    max-width: 30rem;
+}
+
+.answer{
+    max-width: 30rem;
+}

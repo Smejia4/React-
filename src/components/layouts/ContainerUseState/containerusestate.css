@@ -1,0 +1,9 @@
+.containerCounter{
+    width: 50rem;
+    height: 60rem;
+    background-image: radial-gradient(circle, #ee1818, #f20048, #e2007a, #b300ae, #4213dc);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}

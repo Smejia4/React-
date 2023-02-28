@@ -1,0 +1,22 @@
+.container-change-color{
+    width: 40rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.object{
+    width: 20rem;
+    height: 10rem;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.label-color{
+    margin: 2rem;
+}
