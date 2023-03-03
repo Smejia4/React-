@@ -62,8 +62,9 @@ export const ContainerTweet = () => {
         </div>
       </div>
 
+      <h2 className='title'>Comentarios publicados</h2>
+
       <div className='container-title-tweets'>
-        <h2 className='title'>Comentarios publicados</h2>
         {showText.map((show) => (
           <p className='answer'>{show.tweet}</p>
         ))}
