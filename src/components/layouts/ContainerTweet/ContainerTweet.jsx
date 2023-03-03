@@ -54,14 +54,15 @@ export const ContainerTweet = () => {
           }
           <button onClick={handlePost} className='btn'>Publicar</button>
           <button onClick={handleShow} className='btn'>Mostrar</button>
-        </div>
 
-        <div className='container-answer'>
-          <p className='answer'>{text.tweet}</p>
+            <div className='container-answer'>
+              <p className='answer'>{text.tweet}</p>
+            </div>
+
         </div>
       </div>
 
-      <div className='container-old-tweets'>
+      <div className='container-title-tweets'>
         <h2 className='title'>Comentarios publicados</h2>
         {showText.map((show) => (
           <p className='answer'>{show.tweet}</p>
